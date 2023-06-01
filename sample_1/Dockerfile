@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 LABEL Author="John Doe" Description="This is a sample image for Flask app"
 RUN ["apt" , "update" , "-y"]
 RUN ["apt" , "install" , "-y" , "python3-pip", "python3-dev", "python3"]
